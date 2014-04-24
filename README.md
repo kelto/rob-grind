@@ -1,4 +1,4 @@
-*Exercices:
+* Exercices:
 
 **Basic
 1/ Read the text from slipum.txt with a basic stream (FileReader would be the basic choice)
