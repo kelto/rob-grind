@@ -14,9 +14,9 @@ At the end of the program, the program should print each serialized objects.
 
 Example:
 Person.txt:
-Rob 26
-Charles 25
-Diana 30
+Rob 26  
+Charles 25  
+Diana 30  
 
 Read first line: Rob exist in file person => Do nothing
 Read second line: Charles exist in file person => Do nothing
