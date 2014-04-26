@@ -6,7 +6,10 @@ public class BasicCast {
 		// Equivalent of an int in Object
 		Integer integer = new Integer(5);
 		// This will work, since an Integer is an Object, as any other things (except primitive) in Java.
-		Object o = (Object) integer;
+		Object o =  integer;
+		
+		// and then we can go the other way :
+		Integer second = (Integer) o;
 
 		// but now we will try to make it fail ...
 		String string = "Hello world !";
