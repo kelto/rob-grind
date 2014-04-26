@@ -2,9 +2,9 @@
 
 ##Basic
 Some basic exercice about Java, Object, cast, etc ...
-[exercice](basic/README.md)
+[exercice](basic/)
 
 ##Stream
 Exercices for Stream
-[exercice](stream/README.md)
+[exercice](stream/)
 
