@@ -36,3 +36,4 @@ The second should read from a PipedInputStream and print it.
 ### Medium
 1. Try to understand how to use [Condition](http://docs.oracle.com/javase/1.5.0/docs/api/java/util/concurrent/locks/Condition.html) (see example)
 As we can't unlock lock that we don't have lock ourself, Condition make it easier to allow thread to use some ressources.
+An easier example has been put : [ValueHolder](ValueHolder.java) [MainLock](MainLock.java)
