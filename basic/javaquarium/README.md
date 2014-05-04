@@ -28,7 +28,7 @@ Poissons herbivores : Sole, Bar, Carpe.
 ###Exercice 2:Eating
 
 1.Each time a fish eat, it kills its prey. A fish can't eat itself. And the alga or fish that will be eaten, must be chosen randomly.
-(for random number  [http://docs.oracle.com/javase/7/docs/api/java/util/Random.html#nextInt%28int%29](random) )
+(for random number  [random](http://docs.oracle.com/javase/7/docs/api/java/util/Random.html#nextInt%28int%29) )
 
 
 2. This is too extreme, so we will introduce the concept of Health Point(HP).
