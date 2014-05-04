@@ -25,3 +25,14 @@ To make a thread (or the main program) to wait for a certain number of time the 
 1. Try to understand how [PipedInputStream](http://docs.oracle.com/javase/7/docs/api/java/io/PipedInputStream.html) and [PipedOuputStream](http://docs.oracle.com/javase/7/docs/api/java/io/PipedOutputStream.html) work. And use it to create a program that will create 2 different Thread.
 The first one should send through a PipedOutStream a message character by character, waiting 1 second between each.
 The second should read from a PipedInputStream and print it.
+
+#Concurrency
+
+### Basic
+1. Create a basic Safe Thread Object which hold a number. Create a basic method which increment the value when called and print it. This method should be safe thread.
+2. Improve the previous method so that, only the incrementatin is thread safe, not the printing.
+3. Use lock to do so
+
+### Medium
+1. Try to understand how to use [Condition](http://docs.oracle.com/javase/1.5.0/docs/api/java/util/concurrent/locks/Condition.html) (see example)
+As we can't unlock lock that we don't have lock ourself, Condition make it easier to allow thread to use some ressources.
