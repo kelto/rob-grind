@@ -18,12 +18,12 @@ The aquarium got a method to let the time flow: each new turn we do every action
 
 2. diversity
 In our aquarium, we will have different breed, and different type: herbivore and and carnivore. There will be 6 breed:
-**
-Carnivore fish : Grouper, Tuna, Cod
-Herbivore fish: Sardine, Bass, Carp.
+
+*Carnivore fish : Grouper, Tuna, Cod
+*Herbivore fish: Sardine, Bass, Carp.
+
+
 Each fish can eat (a method) : according to its diet, he will either eat an alga (parameter: an alga), or another fish (parameter: another fish, anyone.).
-Poissons carnivores : Mérou, Thon, Poisson-clown.
-Poissons herbivores : Sole, Bar, Carpe.
 
 ###Exercice 2:Eating
 
