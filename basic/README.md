@@ -27,6 +27,7 @@ It's possible to identify a BankAccount through a unique ID number.
 The Bank provide a way to get a list of all the BankAccount of a Person/Company, and a way to calculate the total of all the balance of every BankAccount of a Person/Company.
 
 way of breakthrough:
+  
 1. Create a simple Object to represent a Bank account, with all the needed attribute. Create a simple object that represent a possible owner, without any difference between Person and Company. No attribute for this one. Then create a Bank object that list every bank account.
 2. Find a way to specialize the owner of the account into either a Company or a Person.
 3. Create a function that will take a owner. First it will create an ArrayList and then add to this ArrayList every account that has this owner.
